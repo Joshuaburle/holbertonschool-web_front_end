@@ -1,0 +1,17 @@
+/* 7. Integrating Google Fonts into the CSS file */
+
+/* Font family variables with Google Fonts */
+:root {
+  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Body font */
+body {
+  font-family: var(--font-family-base);
+}
+
+/* Headings font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+}

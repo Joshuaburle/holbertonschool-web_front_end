@@ -1,0 +1,13 @@
+/* 11. Add more styles to the section tagline */
+
+/* Variable for text transform */
+:root {
+  --section-tagline-transform: uppercase;
+}
+
+/* Section tagline styles */
+.section-tagline {
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
+}

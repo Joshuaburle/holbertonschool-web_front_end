@@ -1,0 +1,16 @@
+/* 12. Adding more styling to the section title */
+
+/* Section title variables */
+:root {
+  --section-title-margin: 0;
+  --section-title-color: var(--color-black);
+}
+
+/* Section title styles */
+.section-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
+}

@@ -1,0 +1,21 @@
+/* 13. Pseudo Classes */
+
+/* Only target anchor elements with href */
+a[href] {
+  text-decoration: none;
+}
+
+/* Visited state */
+a[href]:visited {
+  font-style: italic;
+}
+
+/* Hover state */
+a[href]:hover {
+  text-decoration: underline;
+}
+
+/* Active state */
+a[href]:active {
+  background-color: var(--color-light-grey);
+}

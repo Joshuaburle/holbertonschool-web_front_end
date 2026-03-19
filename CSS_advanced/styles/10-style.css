@@ -1,0 +1,11 @@
+/* 10. Centering the section titles */
+
+/* Variable for section header alignment */
+:root {
+  --section-header-align: center;
+}
+
+/* Section header alignment */
+.section-header {
+  text-align: var(--section-header-align);
+}

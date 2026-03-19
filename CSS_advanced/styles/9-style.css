@@ -1,0 +1,6 @@
+/* 9. Links are decorated by default, time to remove them */
+
+/* Remove default link decoration */
+a {
+  text-decoration: none;
+}
